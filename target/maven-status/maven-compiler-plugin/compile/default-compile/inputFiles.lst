@@ -1,0 +1,14 @@
+/home/tee/projects/invoice-app/backend/src/main/java/com/invoice/invoice_api/InvoiceApiApplication.java
+/home/tee/projects/invoice-app/backend/src/main/java/com/invoice/invoice_api/Model/Address.java
+/home/tee/projects/invoice-app/backend/src/main/java/com/invoice/invoice_api/Model/Invoice.java
+/home/tee/projects/invoice-app/backend/src/main/java/com/invoice/invoice_api/Model/Item.java
+/home/tee/projects/invoice-app/backend/src/main/java/com/invoice/invoice_api/Service/AddressService.java
+/home/tee/projects/invoice-app/backend/src/main/java/com/invoice/invoice_api/Service/InvoiceService.java
+/home/tee/projects/invoice-app/backend/src/main/java/com/invoice/invoice_api/Service/ItemService.java
+/home/tee/projects/invoice-app/backend/src/main/java/com/invoice/invoice_api/config/WebConfig.java
+/home/tee/projects/invoice-app/backend/src/main/java/com/invoice/invoice_api/controller/AddressController.java
+/home/tee/projects/invoice-app/backend/src/main/java/com/invoice/invoice_api/controller/InvoiceController.java
+/home/tee/projects/invoice-app/backend/src/main/java/com/invoice/invoice_api/controller/ItemController.java
+/home/tee/projects/invoice-app/backend/src/main/java/com/invoice/invoice_api/repository/AddressRepository.java
+/home/tee/projects/invoice-app/backend/src/main/java/com/invoice/invoice_api/repository/InvoiceRepository.java
+/home/tee/projects/invoice-app/backend/src/main/java/com/invoice/invoice_api/repository/ItemRepository.java
