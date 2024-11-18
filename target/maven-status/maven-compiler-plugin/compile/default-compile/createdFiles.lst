@@ -1,15 +1,9 @@
 com/invoice/invoice_api/Model/Item.class
-com/invoice/invoice_api/config/WebConfig$1.class
-com/invoice/invoice_api/repository/AddressRepository.class
-com/invoice/invoice_api/controller/ItemController.class
-com/invoice/invoice_api/repository/ItemRepository.class
-com/invoice/invoice_api/Service/AddressService.class
-com/invoice/invoice_api/InvoiceApiApplication.class
 com/invoice/invoice_api/repository/InvoiceRepository.class
-com/invoice/invoice_api/controller/AddressController.class
+com/invoice/invoice_api/config/WebConfig$1.class
+com/invoice/invoice_api/InvoiceApiApplication.class
 com/invoice/invoice_api/Model/Invoice.class
 com/invoice/invoice_api/Service/InvoiceService.class
 com/invoice/invoice_api/config/WebConfig.class
-com/invoice/invoice_api/Service/ItemService.class
 com/invoice/invoice_api/controller/InvoiceController.class
 com/invoice/invoice_api/Model/Address.class
