@@ -1,10 +1,5 @@
 package com.invoice.invoice_api.controller;
 
-import org.springframework.web.bind.annotation.RestController;
-
-import com.invoice.invoice_api.Model.Invoice;
-import com.invoice.invoice_api.Service.InvoiceService;
-
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +11,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.invoice.invoice_api.Models.Invoice;
+import com.invoice.invoice_api.Service.InvoiceService;
 
 @RestController
 @RequestMapping("/invoices")
@@ -55,8 +54,8 @@ public class InvoiceController {
                     invoice.setSenderAddress(invoiceDetails.getSenderAddress());
                     invoice.setClientAddress(invoiceDetails.getClientAddress());
                     invoice.setItems(invoiceDetails.getItems());
-                    // invoice.setTotal(invoiceDetails.getTotal());
-                    Invoice updatedInvoice = invoiceService.saveInvoice(invoice);
+                    invoice.setTotal(invoiceDetails.getTotal());
+                    Invoice updatedInvoice = invoiceService.updateInvoice(invoice);
                     return ResponseEntity.ok(updatedInvoice);
                 })
                 .orElseGet(() -> ResponseEntity.notFound().build());
