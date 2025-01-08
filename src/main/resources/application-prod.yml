@@ -1,15 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://${prod_db_host}:${prod_db_port}/${prod_db_name}
-    username: ${postgres_prod_username}
-    password: ${postgres_prod_password}
+    url: jdbc:postgresql://autorack.proxy.rlwy.net:19686/railway
+    username: postgres
+    password: cIRbrGkMHdOvopOYGAXcrEglMmxnECVQ
     driver-class-name: org.postgresql.Driver
-  # jpa:
-  #   hibernate:
-  #     ddl-auto: update
-  #   show-sql: true
-  #   properties:
-  #     hibernate:
-  #       format_sql: true
-  #   database: postgresql
-  #   database-platform: org.hibernate.dialect.PostgreSQLDialect
