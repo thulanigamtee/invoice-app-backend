@@ -2,10 +2,10 @@ package com.invoice.invoice_api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
-@RestController
+@PropertySource("file:${user.dir}/.env")
 public class InvoiceApiApplication {
 
 	public static void main(String[] args) {
